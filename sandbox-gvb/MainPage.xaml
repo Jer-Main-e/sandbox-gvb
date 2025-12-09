@@ -9,15 +9,60 @@
             <Image Source="alle_lijnen.png"
            Aspect="AspectFit"/>
 
-            <!-- Een clickable station -->
-            <Ellipse WidthRequest="20" HeightRequest="20"
+            <Rectangle WidthRequest="57" HeightRequest="20"
              Fill="Red"
-             AbsoluteLayout.LayoutBounds="420.67, 469.72"
+             AbsoluteLayout.LayoutBounds="400.71, 469.72"
              AbsoluteLayout.LayoutFlags="None">
-                <Ellipse.GestureRecognizers>
+                <Rectangle.GestureRecognizers>
                     <TapGestureRecognizer Tapped="OnStationTapped"/>
-                </Ellipse.GestureRecognizers>
-            </Ellipse>
+                </Rectangle.GestureRecognizers>
+            </Rectangle>
+
+
+            <Rectangle WidthRequest="38" HeightRequest="20"
+Fill="Red"
+AbsoluteLayout.LayoutBounds="400.71, 704.47"
+AbsoluteLayout.LayoutFlags="None">
+                <Rectangle.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnStationTapped"/>
+                </Rectangle.GestureRecognizers>
+            </Rectangle>
+
+            <Rectangle WidthRequest="38" HeightRequest="20"
+     Fill="Red"
+     AbsoluteLayout.LayoutBounds="400.71, 772.25"
+     AbsoluteLayout.LayoutFlags="None">
+                <Rectangle.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnStationTapped"/>
+                </Rectangle.GestureRecognizers>
+            </Rectangle>
+
+            <Rectangle WidthRequest="38" HeightRequest="20"
+                 Fill="Red"
+                 AbsoluteLayout.LayoutBounds="400.71, 840.03"
+                 AbsoluteLayout.LayoutFlags="None">
+                <Rectangle.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnStationTapped"/>
+                </Rectangle.GestureRecognizers>
+            </Rectangle>
+
+            <Rectangle WidthRequest="38" HeightRequest="20"
+     Fill="Red"
+     AbsoluteLayout.LayoutBounds="400.71, 907.81"
+     AbsoluteLayout.LayoutFlags="None">
+                <Rectangle.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnStationTapped"/>
+                </Rectangle.GestureRecognizers>
+            </Rectangle>
+
+            <Rectangle WidthRequest="38" HeightRequest="20"
+     Fill="Red"
+     AbsoluteLayout.LayoutBounds="400.71, 975.59"
+     AbsoluteLayout.LayoutFlags="None">
+                <Rectangle.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnStationTapped"/>
+                </Rectangle.GestureRecognizers>
+            </Rectangle>
         </AbsoluteLayout>
     </ScrollView>
 
