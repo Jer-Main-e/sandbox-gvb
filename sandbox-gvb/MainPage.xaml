@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="sandbox_gvb.MainPage">
+
+    <ScrollView>
+        <AbsoluteLayout>
+            <!-- De kaart zelf -->
+            <Image Source="alle_lijnen.png"
+           Aspect="AspectFit"/>
+
+            <!-- Een clickable station -->
+            <Ellipse WidthRequest="20" HeightRequest="20"
+             Fill="Red"
+             AbsoluteLayout.LayoutBounds="420.67, 469.72"
+             AbsoluteLayout.LayoutFlags="None">
+                <Ellipse.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnStationTapped"/>
+                </Ellipse.GestureRecognizers>
+            </Ellipse>
+        </AbsoluteLayout>
+    </ScrollView>
+
+</ContentPage>
