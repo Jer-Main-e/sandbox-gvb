@@ -395,7 +395,7 @@
 
     <Style TargetType="Page" ApplyToDerivedTypes="True">
         <Setter Property="Padding" Value="0"/>
-        <Setter Property="BackgroundColor" Value="white" />
+        <Setter Property="BackgroundColor" Value="gray" />
     </Style>
 
     <Style TargetType="Shell" ApplyToDerivedTypes="True">
