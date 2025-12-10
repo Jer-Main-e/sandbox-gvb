@@ -9,6 +9,136 @@
             <Image Source="alle_lijnen.png"
            Aspect="AspectFit"/>
 
+            <Rectangle WidthRequest="38" HeightRequest="20"
+Fill="Red"
+AbsoluteLayout.LayoutBounds="40, 193.55"
+AbsoluteLayout.LayoutFlags="None">
+                <Rectangle.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnStationTapped"/>
+                </Rectangle.GestureRecognizers>
+            </Rectangle>
+
+            <Rectangle WidthRequest="38" HeightRequest="20"
+Fill="Red"
+AbsoluteLayout.LayoutBounds="41.48, 245.32"
+AbsoluteLayout.LayoutFlags="None">
+                <Rectangle.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnStationTapped"/>
+                </Rectangle.GestureRecognizers>
+            </Rectangle>
+
+            <Rectangle WidthRequest="38" HeightRequest="20"
+Fill="Red"
+AbsoluteLayout.LayoutBounds="41.48, 297.09"
+AbsoluteLayout.LayoutFlags="None">
+                <Rectangle.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnStationTapped"/>
+                </Rectangle.GestureRecognizers>
+            </Rectangle>
+
+            <Rectangle WidthRequest="38" HeightRequest="20"
+Fill="Red"
+AbsoluteLayout.LayoutBounds="41.48, 348.86"
+AbsoluteLayout.LayoutFlags="None">
+                <Rectangle.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnStationTapped"/>
+                </Rectangle.GestureRecognizers>
+            </Rectangle>
+
+            <Rectangle WidthRequest="38" HeightRequest="20"
+Fill="Red"
+AbsoluteLayout.LayoutBounds="41.48, 400.64"
+AbsoluteLayout.LayoutFlags="None">
+                <Rectangle.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnStationTapped"/>
+                </Rectangle.GestureRecognizers>
+            </Rectangle>
+
+            <Rectangle WidthRequest="38" HeightRequest="20"
+Fill="Red"
+AbsoluteLayout.LayoutBounds="41.48, 452.41"
+AbsoluteLayout.LayoutFlags="None">
+                <Rectangle.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnStationTapped"/>
+                </Rectangle.GestureRecognizers>
+            </Rectangle>
+
+            <Rectangle WidthRequest="38" HeightRequest="20"
+Fill="Red"
+AbsoluteLayout.LayoutBounds="41.48, 504.18"
+AbsoluteLayout.LayoutFlags="None">
+                <Rectangle.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnStationTapped"/>
+                </Rectangle.GestureRecognizers>
+            </Rectangle>
+
+
+            <Rectangle WidthRequest="19" HeightRequest="20"
+Fill="Red"
+AbsoluteLayout.LayoutBounds="273.51, 362.09"
+AbsoluteLayout.LayoutFlags="None">
+                <Rectangle.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnStationTapped"/>
+                </Rectangle.GestureRecognizers>
+            </Rectangle>
+
+            <Rectangle WidthRequest="19" HeightRequest="20"
+Fill="Red"
+AbsoluteLayout.LayoutBounds="273.51, 442.52"
+AbsoluteLayout.LayoutFlags="None">
+                <Rectangle.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnStationTapped"/>
+                </Rectangle.GestureRecognizers>
+            </Rectangle>
+
+            <Rectangle WidthRequest="19" HeightRequest="20"
+Fill="Red"
+AbsoluteLayout.LayoutBounds="273.51, 524.12"
+AbsoluteLayout.LayoutFlags="None">
+                <Rectangle.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnStationTapped"/>
+                </Rectangle.GestureRecognizers>
+            </Rectangle>
+            
+
+            <Rectangle WidthRequest="57" HeightRequest="20"
+Fill="Red"
+AbsoluteLayout.LayoutBounds="400.71, 252.12"
+AbsoluteLayout.LayoutFlags="None">
+                <Rectangle.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnStationTapped"/>
+                </Rectangle.GestureRecognizers>
+            </Rectangle>
+
+            <Rectangle WidthRequest="57" HeightRequest="20"
+Fill="Red"
+AbsoluteLayout.LayoutBounds="400.71, 306.52"
+AbsoluteLayout.LayoutFlags="None">
+                <Rectangle.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnStationTapped"/>
+                </Rectangle.GestureRecognizers>
+            </Rectangle>
+
+            <Rectangle WidthRequest="57" HeightRequest="20"
+Fill="Red"
+AbsoluteLayout.LayoutBounds="400.71, 360.92"
+AbsoluteLayout.LayoutFlags="None">
+                <Rectangle.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnStationTapped"/>
+                </Rectangle.GestureRecognizers>
+            </Rectangle>
+
+            <Rectangle WidthRequest="57" HeightRequest="20"
+Fill="Red"
+AbsoluteLayout.LayoutBounds="400.71, 415.32"
+AbsoluteLayout.LayoutFlags="None">
+                <Rectangle.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnStationTapped"/>
+                </Rectangle.GestureRecognizers>
+            </Rectangle>
+
+
+
             <Rectangle WidthRequest="57" HeightRequest="20"
              Fill="Red"
              AbsoluteLayout.LayoutBounds="400.71, 469.72"
@@ -18,6 +148,23 @@
                 </Rectangle.GestureRecognizers>
             </Rectangle>
 
+            <Rectangle WidthRequest="57" HeightRequest="20"
+Fill="Red"
+AbsoluteLayout.LayoutBounds="400.71, 526.03"
+AbsoluteLayout.LayoutFlags="None">
+                <Rectangle.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnStationTapped"/>
+                </Rectangle.GestureRecognizers>
+            </Rectangle>
+
+            <Rectangle WidthRequest="57" HeightRequest="20"
+            Fill="Red"
+AbsoluteLayout.LayoutBounds="400.71, 637.38"
+AbsoluteLayout.LayoutFlags="None">
+            <Rectangle.GestureRecognizers>
+                <TapGestureRecognizer Tapped="OnStationTapped"/>
+            </Rectangle.GestureRecognizers>
+            </Rectangle>
 
             <Rectangle WidthRequest="38" HeightRequest="20"
 Fill="Red"
