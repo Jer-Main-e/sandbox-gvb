@@ -9,6 +9,60 @@
             <Image Source="alle_lijnen.png"
            Aspect="AspectFit"/>
 
+            <!-- Rode path -->
+            <Path Stroke="#EF4236"
+      StrokeThickness="16"
+      StrokeLineCap="Round"
+      StrokeLineJoin="Round"
+      Data="M703.75 961.18V734.829C703.75 721.629 692.95 710.829 679.75 710.829H468.625C455.425 710.829 444.625 700.029 444.625 686.829V308.18V251.386C444.625 239.286 437.625 222.386 429.0683 213.8297L402.5859 187.3468">
+                <Path.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnStationTapped"/>
+                </Path.GestureRecognizers>
+            </Path>
+
+            <!-- Gele path -->
+            <Path Stroke="#FBD116" 
+      StrokeThickness="16"
+      StrokeLineCap="Round"
+      StrokeLineJoin="Round"
+      Data="M391.21 198.6L417.3135 224.703C423.5363 230.926 428.6271 243.217 428.6271 252.017V316.526V1005.809C428.6271 1019.009 439.4269 1029.809 452.6271 1029.809H616.0023">
+                <Path.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnStationTapped"/>
+                </Path.GestureRecognizers>
+            </Path>
+
+            <!-- Oranje path -->
+            <Path Stroke="#F57F20" 
+      StrokeThickness="16"
+      StrokeLineCap="Round"
+      StrokeLineJoin="Round"
+      Data="M130.83 160.18H88.0004C74.8002 160.18 64.0004 170.98 64.0004 184.18V557.18C64.0004 570.38 74.8002 581.18 88.0004 581.18H388.6254C401.8254 581.18 412.6254 570.38 412.6254 557.18V308.18V252.641C412.6254 247.141 409.4434 239.459 405.5544 235.57L379.8964 209.91">
+                <Path.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnStationTapped"/>
+                </Path.GestureRecognizers>
+            </Path>
+
+            <!-- Groene path -->
+            <Path Stroke="#2A9947" 
+      StrokeThickness="16"
+      StrokeLineCap="Round"
+      StrokeLineJoin="Round"
+      Data="M130.83 144.18H88.0004C66.0004 144.18 48.0004 162.18 48.0004 184.18V557.18C48.0004 579.18 66.0004 597.18 88.0004 597.18H207.0004H388.6254C401.8254 597.18 412.6254 607.98 412.6254 621.18V916.18V1005.805C412.6254 1027.805 430.6254 1045.805 452.6254 1045.805H616.0004">
+                <Path.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnStationTapped"/>
+                </Path.GestureRecognizers>
+            </Path>
+
+            <!-- Blauwe path -->
+            <Path Stroke="#00AEEF" 
+      StrokeThickness="16"
+      StrokeLineCap="Round"
+      StrokeLineJoin="Round"
+      Data="M530 48.52L291.3135 287.206C285.0913 293.429 280 305.72 280 314.52V452.525V541.216C280 554.416 269.2002 565.216 256 565.216H203">
+                <Path.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnStationTapped"/>
+                </Path.GestureRecognizers>
+            </Path>
 
 
             <!-- Horizontale lijnen -->
@@ -49,12 +103,16 @@
             </Rectangle>
 
 
-            <Path Fill="White"
-      Stroke="Black" 
-      StrokeThickness="4"
-      Data="M39.6498 4.57673C36.2133 1.14069 30.641 1.14117 27.2054 4.5777C24.7875 6.9942 24.0785 10.4654 25.0609 13.5093L24.8666 13.7037C21.8226 12.7208 18.3519 13.4302 15.9349 15.8472C13.518 18.2642 12.809 21.7359 13.7914 24.7794L13.5092 25.0611C10.4657 24.0782 6.99402 24.7882 4.57703 27.2047C1.14099 30.6412 1.14099 36.2134 4.57703 39.65C8.01355 43.0865 13.5863 43.0865 17.0219 39.6505C19.4398 37.2335 20.1488 33.7618 19.1664 30.7178L19.4476 30.4361C22.4916 31.419 25.9633 30.7095 28.3793 28.2925C30.7972 25.876 31.5062 22.4044 30.5238 19.3604L30.7181 19.1661C33.7611 20.1495 37.2328 19.44 39.6498 17.023C43.0863 13.5865 43.0863 8.01374 39.6498 4.57673Z"
-      TranslationX="364"
-      TranslationY="171.5"/>
+            <Path
+    Fill="Transparent"
+    Data="M39.6498 4.57673C36.2133 1.14069 30.641 1.14117 27.2054 4.5777C24.7875 6.9942 24.0785 10.4654 25.0609 13.5093L24.8666 13.7037C21.8226 12.7208 18.3519 13.4302 15.9349 15.8472C13.518 18.2642 12.809 21.7359 13.7914 24.7794L13.5092 25.0611C10.4657 24.0782 6.99402 24.7882 4.57703 27.2047C1.14099 30.6412 1.14099 36.2134 4.57703 39.65C8.01355 43.0865 13.5863 43.0865 17.0219 39.6505C19.4398 37.2335 20.1488 33.7618 19.1664 30.7178L19.4476 30.4361C22.4916 31.419 25.9633 30.7095 28.3793 28.2925C30.7972 25.876 31.5062 22.4044 30.5238 19.3604L30.7181 19.1661C33.7611 20.1495 37.2328 19.44 39.6498 17.023C43.0863 13.5865 43.0863 8.01374 39.6498 4.57673Z"
+    TranslationX="364"
+    TranslationY="171.5">
+
+                <Path.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnStationTapped"/>
+                </Path.GestureRecognizers>
+            </Path>
 
             <!-- Groene horizontale lijnen (Rectangles met GestureRecognizer) -->
 
